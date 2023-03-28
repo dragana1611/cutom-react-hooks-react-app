@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #282828;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+  background: linear-gradient(115deg, rgb(211, 255, 215) 0%, rgb(0, 0, 0) 100%),
+    radial-gradient(
+      90% 100% at 50% 0%,
+      rgb(200, 200, 200) 0%,
+      rgb(22, 0, 45) 100%
+    ),
+    radial-gradient(
+      100% 100% at 80% 0%,
+      rgb(250, 255, 0) 0%,
+      rgb(36, 0, 0) 100%
+    ),
+    radial-gradient(
+      150% 210% at 100% 0%,
+      rgb(112, 255, 0) 0%,
+      rgb(20, 175, 125) 0%,
+      rgb(0, 10, 255) 100%
+    ),
+    radial-gradient(
+      100% 100% at 100% 30%,
+      rgb(255, 77, 0) 0%,
+      rgba(0, 200, 255, 1) 100%
+    ),
+    linear-gradient(60deg, rgb(255, 0, 0) 0%, rgb(120, 86, 255) 100%);
+  background-blend-mode: overlay, overlay, difference, difference, difference,
+    normal;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+
+button:hover,
+button:active {
+  background: #193d6c;
+  border-color: #193d6c;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(115deg, rgb(211, 255, 215) 0%, rgb(0, 0, 0) 100%),
+    radial-gradient(
+      90% 100% at 50% 0%,
+      rgb(200, 200, 200) 0%,
+      rgb(22, 0, 45) 100%
+    ),
+    radial-gradient(
+      100% 100% at 80% 0%,
+      rgb(250, 255, 0) 0%,
+      rgb(36, 0, 0) 100%
+    ),
+    radial-gradient(
+      150% 210% at 100% 0%,
+      rgb(112, 255, 0) 0%,
+      rgb(20, 175, 125) 0%,
+      rgb(0, 10, 255) 100%
+    ),
+    radial-gradient(
+      100% 100% at 100% 30%,
+      rgb(255, 77, 0) 0%,
+      rgba(0, 200, 255, 1) 100%
+    ),
+    linear-gradient(60deg, rgb(255, 0, 0) 0%, rgb(120, 86, 255) 100%);
+  background-blend-mode: overlay, overlay, difference, difference, difference,
+    normal;
+}
+
+header {
+text-shadow: 1px 1px #282828;
+}
